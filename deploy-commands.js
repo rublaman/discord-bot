@@ -7,6 +7,7 @@ const commands = [
 	new SlashCommandBuilder().setName('ping').setDescription('Responde con un pong!'),
 	new SlashCommandBuilder().setName('server').setDescription('Responde con la información del servidor!'),
 	new SlashCommandBuilder().setName('user').setDescription('Responde con la información del usuario!'),
+	new SlashCommandBuilder().setName('location').setDescription('ejemplo de api!'),
 ]
 	.map(command => command.toJSON());
 
